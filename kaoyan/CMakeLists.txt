@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.15)
+project(kaoyan)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(main main.cpp)
+add_executable(KY17 KY17_Factorial.cpp)
+add_executable(KY18 KY18_SpecialMultiplication.cpp)
+add_executable(KY37 KY37_WhiteMiceLineUp.cpp)
+add_executable(KY84 KY84_SumOfNumbers.cpp)
+add_executable(KY199 KY199_Find.cpp)
+add_executable(KY158 KY158_FindX.cpp)
+add_executable(KY160 KY160_Mode.cpp)
+add_executable(KY45 KY45.cpp)
+add_executable(KY132 KY132.cpp)
+add_executable(KY168 KY168.cpp)
+add_executable(KY125 KY125.cpp)
+add_executable(KY101 KY101.cpp)

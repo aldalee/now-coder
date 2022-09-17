@@ -1,0 +1,168 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kaoyan",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "KY101::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KY101-Debug-767b88aa21c1f46372d4.json",
+					"name" : "KY101",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KY125::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KY125-Debug-3fb37755031e15bd6884.json",
+					"name" : "KY125",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KY132::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KY132-Debug-678e481e58c3d2b05de3.json",
+					"name" : "KY132",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KY158::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KY158-Debug-9aa7effdd5b9f8359bf5.json",
+					"name" : "KY158",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KY160::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KY160-Debug-e5eef8db45958c2f71aa.json",
+					"name" : "KY160",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KY168::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KY168-Debug-24475aacbfce188ea2d1.json",
+					"name" : "KY168",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KY17::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KY17-Debug-0d3d2cca4d1b3ebc9581.json",
+					"name" : "KY17",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KY18::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KY18-Debug-e44bdac03b98284c3778.json",
+					"name" : "KY18",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KY199::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KY199-Debug-ea0cf18b93abba1e4de1.json",
+					"name" : "KY199",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KY37::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KY37-Debug-49789e7b7f6a26170f7d.json",
+					"name" : "KY37",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KY45::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KY45-Debug-6c18e125a66502bdf143.json",
+					"name" : "KY45",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KY84::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KY84-Debug-c2b1bb3e553eb36206ca.json",
+					"name" : "KY84",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-121b5cb3636252c3694d.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/WorkSpace/IDE/clion/Arithmetic/NowCoder/kaoyan/cmake-build-debug",
+		"source" : "D:/WorkSpace/IDE/clion/Arithmetic/NowCoder/kaoyan"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
