@@ -106,6 +106,39 @@ build BM21.exe: CXX_EXECUTABLE_LINKER__BM21_Debug CMakeFiles/BM21.dir/T02_search
   TARGET_IMPLIB = libBM21.dll.a
   TARGET_PDB = BM21.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target BM17
+
+
+#############################################
+# Order-only phony target for BM17
+
+build cmake_object_order_depends_target_BM17: phony || CMakeFiles/BM17.dir
+
+build CMakeFiles/BM17.dir/T02_search_sort/BM17.cpp.obj: CXX_COMPILER__BM17_Debug D$:/space/algorithm/now-coder/Interview-top101/T02_search_sort/BM17.cpp || cmake_object_order_depends_target_BM17
+  DEP_FILE = CMakeFiles\BM17.dir\T02_search_sort\BM17.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\BM17.dir
+  OBJECT_FILE_DIR = CMakeFiles\BM17.dir\T02_search_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BM17
+
+
+#############################################
+# Link the executable BM17.exe
+
+build BM17.exe: CXX_EXECUTABLE_LINKER__BM17_Debug CMakeFiles/BM17.dir/T02_search_sort/BM17.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BM17.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BM17.exe
+  TARGET_IMPLIB = libBM17.dll.a
+  TARGET_PDB = BM17.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -132,6 +165,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build BM17: phony BM17.exe
+
 build BM21: phony BM21.exe
 
 build Interview_top101: phony Interview_top101.exe
@@ -144,7 +179,7 @@ build Interview_top101: phony Interview_top101.exe
 #############################################
 # Folder: D:/space/algorithm/now-coder/Interview-top101/cmake-build-debug
 
-build all: phony Interview_top101.exe BM21.exe
+build all: phony Interview_top101.exe BM21.exe BM17.exe
 
 # =============================================================================
 # Built-in targets
