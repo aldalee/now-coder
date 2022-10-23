@@ -139,6 +139,237 @@ build BM17.exe: CXX_EXECUTABLE_LINKER__BM17_Debug CMakeFiles/BM17.dir/T02_search
   TARGET_IMPLIB = libBM17.dll.a
   TARGET_PDB = BM17.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target BM19
+
+
+#############################################
+# Order-only phony target for BM19
+
+build cmake_object_order_depends_target_BM19: phony || CMakeFiles/BM19.dir
+
+build CMakeFiles/BM19.dir/T02_search_sort/BM19.cpp.obj: CXX_COMPILER__BM19_Debug D$:/space/algorithm/now-coder/Interview-top101/T02_search_sort/BM19.cpp || cmake_object_order_depends_target_BM19
+  DEP_FILE = CMakeFiles\BM19.dir\T02_search_sort\BM19.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\BM19.dir
+  OBJECT_FILE_DIR = CMakeFiles\BM19.dir\T02_search_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BM19
+
+
+#############################################
+# Link the executable BM19.exe
+
+build BM19.exe: CXX_EXECUTABLE_LINKER__BM19_Debug CMakeFiles/BM19.dir/T02_search_sort/BM19.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BM19.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BM19.exe
+  TARGET_IMPLIB = libBM19.dll.a
+  TARGET_PDB = BM19.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BM20
+
+
+#############################################
+# Order-only phony target for BM20
+
+build cmake_object_order_depends_target_BM20: phony || CMakeFiles/BM20.dir
+
+build CMakeFiles/BM20.dir/T02_search_sort/BM20.cpp.obj: CXX_COMPILER__BM20_Debug D$:/space/algorithm/now-coder/Interview-top101/T02_search_sort/BM20.cpp || cmake_object_order_depends_target_BM20
+  DEP_FILE = CMakeFiles\BM20.dir\T02_search_sort\BM20.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\BM20.dir
+  OBJECT_FILE_DIR = CMakeFiles\BM20.dir\T02_search_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BM20
+
+
+#############################################
+# Link the executable BM20.exe
+
+build BM20.exe: CXX_EXECUTABLE_LINKER__BM20_Debug CMakeFiles/BM20.dir/T02_search_sort/BM20.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BM20.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BM20.exe
+  TARGET_IMPLIB = libBM20.dll.a
+  TARGET_PDB = BM20.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BM50
+
+
+#############################################
+# Order-only phony target for BM50
+
+build cmake_object_order_depends_target_BM50: phony || CMakeFiles/BM50.dir
+
+build CMakeFiles/BM50.dir/T05_hash/BM50.cpp.obj: CXX_COMPILER__BM50_Debug D$:/space/algorithm/now-coder/Interview-top101/T05_hash/BM50.cpp || cmake_object_order_depends_target_BM50
+  DEP_FILE = CMakeFiles\BM50.dir\T05_hash\BM50.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\BM50.dir
+  OBJECT_FILE_DIR = CMakeFiles\BM50.dir\T05_hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BM50
+
+
+#############################################
+# Link the executable BM50.exe
+
+build BM50.exe: CXX_EXECUTABLE_LINKER__BM50_Debug CMakeFiles/BM50.dir/T05_hash/BM50.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BM50.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BM50.exe
+  TARGET_IMPLIB = libBM50.dll.a
+  TARGET_PDB = BM50.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BM51
+
+
+#############################################
+# Order-only phony target for BM51
+
+build cmake_object_order_depends_target_BM51: phony || CMakeFiles/BM51.dir
+
+build CMakeFiles/BM51.dir/T05_hash/BM51.cpp.obj: CXX_COMPILER__BM51_Debug D$:/space/algorithm/now-coder/Interview-top101/T05_hash/BM51.cpp || cmake_object_order_depends_target_BM51
+  DEP_FILE = CMakeFiles\BM51.dir\T05_hash\BM51.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\BM51.dir
+  OBJECT_FILE_DIR = CMakeFiles\BM51.dir\T05_hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BM51
+
+
+#############################################
+# Link the executable BM51.exe
+
+build BM51.exe: CXX_EXECUTABLE_LINKER__BM51_Debug CMakeFiles/BM51.dir/T05_hash/BM51.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BM51.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BM51.exe
+  TARGET_IMPLIB = libBM51.dll.a
+  TARGET_PDB = BM51.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BM52
+
+
+#############################################
+# Order-only phony target for BM52
+
+build cmake_object_order_depends_target_BM52: phony || CMakeFiles/BM52.dir
+
+build CMakeFiles/BM52.dir/T05_hash/BM52.cpp.obj: CXX_COMPILER__BM52_Debug D$:/space/algorithm/now-coder/Interview-top101/T05_hash/BM52.cpp || cmake_object_order_depends_target_BM52
+  DEP_FILE = CMakeFiles\BM52.dir\T05_hash\BM52.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\BM52.dir
+  OBJECT_FILE_DIR = CMakeFiles\BM52.dir\T05_hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BM52
+
+
+#############################################
+# Link the executable BM52.exe
+
+build BM52.exe: CXX_EXECUTABLE_LINKER__BM52_Debug CMakeFiles/BM52.dir/T05_hash/BM52.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BM52.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BM52.exe
+  TARGET_IMPLIB = libBM52.dll.a
+  TARGET_PDB = BM52.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BM53
+
+
+#############################################
+# Order-only phony target for BM53
+
+build cmake_object_order_depends_target_BM53: phony || CMakeFiles/BM53.dir
+
+build CMakeFiles/BM53.dir/T05_hash/BM53.cpp.obj: CXX_COMPILER__BM53_Debug D$:/space/algorithm/now-coder/Interview-top101/T05_hash/BM53.cpp || cmake_object_order_depends_target_BM53
+  DEP_FILE = CMakeFiles\BM53.dir\T05_hash\BM53.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\BM53.dir
+  OBJECT_FILE_DIR = CMakeFiles\BM53.dir\T05_hash
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BM53
+
+
+#############################################
+# Link the executable BM53.exe
+
+build BM53.exe: CXX_EXECUTABLE_LINKER__BM53_Debug CMakeFiles/BM53.dir/T05_hash/BM53.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BM53.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BM53.exe
+  TARGET_IMPLIB = libBM53.dll.a
+  TARGET_PDB = BM53.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BM23
+
+
+#############################################
+# Order-only phony target for BM23
+
+build cmake_object_order_depends_target_BM23: phony || CMakeFiles/BM23.dir
+
+build CMakeFiles/BM23.dir/T03_binarytree/BM23.cpp.obj: CXX_COMPILER__BM23_Debug D$:/space/algorithm/now-coder/Interview-top101/T03_binarytree/BM23.cpp || cmake_object_order_depends_target_BM23
+  DEP_FILE = CMakeFiles\BM23.dir\T03_binarytree\BM23.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\BM23.dir
+  OBJECT_FILE_DIR = CMakeFiles\BM23.dir\T03_binarytree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BM23
+
+
+#############################################
+# Link the executable BM23.exe
+
+build BM23.exe: CXX_EXECUTABLE_LINKER__BM23_Debug CMakeFiles/BM23.dir/T03_binarytree/BM23.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BM23.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BM23.exe
+  TARGET_IMPLIB = libBM23.dll.a
+  TARGET_PDB = BM23.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -167,7 +398,21 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build BM17: phony BM17.exe
 
+build BM19: phony BM19.exe
+
+build BM20: phony BM20.exe
+
 build BM21: phony BM21.exe
+
+build BM23: phony BM23.exe
+
+build BM50: phony BM50.exe
+
+build BM51: phony BM51.exe
+
+build BM52: phony BM52.exe
+
+build BM53: phony BM53.exe
 
 build Interview_top101: phony Interview_top101.exe
 
@@ -179,7 +424,7 @@ build Interview_top101: phony Interview_top101.exe
 #############################################
 # Folder: D:/space/algorithm/now-coder/Interview-top101/cmake-build-debug
 
-build all: phony Interview_top101.exe BM21.exe BM17.exe
+build all: phony Interview_top101.exe BM21.exe BM17.exe BM19.exe BM20.exe BM50.exe BM51.exe BM52.exe BM53.exe BM23.exe
 
 # =============================================================================
 # Built-in targets
