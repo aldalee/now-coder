@@ -8,5 +8,6 @@ D:/space/algorithm/now-coder/Interview-top101/cmake-build-debug/CMakeFiles/BM51.
 D:/space/algorithm/now-coder/Interview-top101/cmake-build-debug/CMakeFiles/BM52.dir
 D:/space/algorithm/now-coder/Interview-top101/cmake-build-debug/CMakeFiles/BM53.dir
 D:/space/algorithm/now-coder/Interview-top101/cmake-build-debug/CMakeFiles/BM23.dir
+D:/space/algorithm/now-coder/Interview-top101/cmake-build-debug/CMakeFiles/BM24.dir
 D:/space/algorithm/now-coder/Interview-top101/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/space/algorithm/now-coder/Interview-top101/cmake-build-debug/CMakeFiles/rebuild_cache.dir

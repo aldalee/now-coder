@@ -370,6 +370,39 @@ build BM23.exe: CXX_EXECUTABLE_LINKER__BM23_Debug CMakeFiles/BM23.dir/T03_binary
   TARGET_IMPLIB = libBM23.dll.a
   TARGET_PDB = BM23.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target BM24
+
+
+#############################################
+# Order-only phony target for BM24
+
+build cmake_object_order_depends_target_BM24: phony || CMakeFiles/BM24.dir
+
+build CMakeFiles/BM24.dir/T03_binarytree/BM24.cpp.obj: CXX_COMPILER__BM24_Debug D$:/space/algorithm/now-coder/Interview-top101/T03_binarytree/BM24.cpp || cmake_object_order_depends_target_BM24
+  DEP_FILE = CMakeFiles\BM24.dir\T03_binarytree\BM24.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\BM24.dir
+  OBJECT_FILE_DIR = CMakeFiles\BM24.dir\T03_binarytree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BM24
+
+
+#############################################
+# Link the executable BM24.exe
+
+build BM24.exe: CXX_EXECUTABLE_LINKER__BM24_Debug CMakeFiles/BM24.dir/T03_binarytree/BM24.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BM24.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BM24.exe
+  TARGET_IMPLIB = libBM24.dll.a
+  TARGET_PDB = BM24.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -406,6 +439,8 @@ build BM21: phony BM21.exe
 
 build BM23: phony BM23.exe
 
+build BM24: phony BM24.exe
+
 build BM50: phony BM50.exe
 
 build BM51: phony BM51.exe
@@ -424,7 +459,7 @@ build Interview_top101: phony Interview_top101.exe
 #############################################
 # Folder: D:/space/algorithm/now-coder/Interview-top101/cmake-build-debug
 
-build all: phony Interview_top101.exe BM21.exe BM17.exe BM19.exe BM20.exe BM50.exe BM51.exe BM52.exe BM53.exe BM23.exe
+build all: phony Interview_top101.exe BM21.exe BM17.exe BM19.exe BM20.exe BM50.exe BM51.exe BM52.exe BM53.exe BM23.exe BM24.exe
 
 # =============================================================================
 # Built-in targets
