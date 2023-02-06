@@ -1,4 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe" -G Ninja -S D:\space\algorithm\now-coder\Interview-top101 -B D:\space\algorithm\now-coder\Interview-top101\cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: D:/space/algorithm/now-coder/Interview-top101/cmake-build-debug
+CMakeLists.txt not found in D:\space\algorithm\now-coder\Interview-top101 Select CMakeLists.txt
