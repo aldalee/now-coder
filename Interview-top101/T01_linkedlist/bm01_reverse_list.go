@@ -1,10 +1,5 @@
 package main
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func ReverseList(pHead *ListNode) *ListNode {
 	var pre *ListNode = nil //新链表的头节点
 	var cur = pHead
