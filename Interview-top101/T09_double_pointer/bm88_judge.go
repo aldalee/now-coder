@@ -1,12 +1,10 @@
 package main
 
 func judge(str string) bool {
-	p, q := 0, len(str)-1
-	for p <= q {
+	for p, q := 0, len(str)-1; p <= q; p++ {
 		if str[p] != str[q] {
 			return false
 		} else {
-			p++
 			q--
 		}
 	}
